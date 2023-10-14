@@ -10,7 +10,6 @@ import FirebaseCore
 
 @main
 struct Todo_ListApp: App {
-    
     init() {
         FirebaseApp.configure()
     }
