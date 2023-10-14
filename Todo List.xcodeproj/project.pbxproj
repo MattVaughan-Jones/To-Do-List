@@ -23,7 +23,7 @@
 		EC610C242ADA30150084BDF8 /* MainViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC610C232ADA30150084BDF8 /* MainViewViewModel.swift */; };
 		EC610C262ADA302B0084BDF8 /* ToDoListViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC610C252ADA302B0084BDF8 /* ToDoListViewViewModel.swift */; };
 		EC610C282ADA30380084BDF8 /* ProfileViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC610C272ADA30380084BDF8 /* ProfileViewViewModel.swift */; };
-		EC610C2E2ADA30640084BDF8 /* ToDopListItemViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC610C2D2ADA30640084BDF8 /* ToDopListItemViewViewModel.swift */; };
+		EC610C2E2ADA30640084BDF8 /* ToDoListItemViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC610C2D2ADA30640084BDF8 /* ToDoListItemViewViewModel.swift */; };
 		EC610C302ADA30700084BDF8 /* NewItemViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC610C2F2ADA30700084BDF8 /* NewItemViewViewModel.swift */; };
 		EC610C322ADA34C30084BDF8 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC610C312ADA34C30084BDF8 /* HeaderView.swift */; };
 		ECE0FD9B2ADA4DE300F7AEDC /* TLButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE0FD9A2ADA4DE300F7AEDC /* TLButton.swift */; };
@@ -53,7 +53,7 @@
 		EC610C232ADA30150084BDF8 /* MainViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewViewModel.swift; sourceTree = "<group>"; };
 		EC610C252ADA302B0084BDF8 /* ToDoListViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListViewViewModel.swift; sourceTree = "<group>"; };
 		EC610C272ADA30380084BDF8 /* ProfileViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewViewModel.swift; sourceTree = "<group>"; };
-		EC610C2D2ADA30640084BDF8 /* ToDopListItemViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDopListItemViewViewModel.swift; sourceTree = "<group>"; };
+		EC610C2D2ADA30640084BDF8 /* ToDoListItemViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListItemViewViewModel.swift; sourceTree = "<group>"; };
 		EC610C2F2ADA30700084BDF8 /* NewItemViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewItemViewViewModel.swift; sourceTree = "<group>"; };
 		EC610C312ADA34C30084BDF8 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		ECE0FD9A2ADA4DE300F7AEDC /* TLButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLButton.swift; sourceTree = "<group>"; };
@@ -137,7 +137,7 @@
 				EC610C272ADA30380084BDF8 /* ProfileViewViewModel.swift */,
 				ECE0FDAA2ADA97EE00F7AEDC /* LoginViewViewModel.swift */,
 				ECE0FDAC2ADA98B500F7AEDC /* RegisterViewViewModel.swift */,
-				EC610C2D2ADA30640084BDF8 /* ToDopListItemViewViewModel.swift */,
+				EC610C2D2ADA30640084BDF8 /* ToDoListItemViewViewModel.swift */,
 				EC610C2F2ADA30700084BDF8 /* NewItemViewViewModel.swift */,
 			);
 			path = ViewModels;
@@ -255,7 +255,7 @@
 				EC610C242ADA30150084BDF8 /* MainViewViewModel.swift in Sources */,
 				ECE0FD9B2ADA4DE300F7AEDC /* TLButton.swift in Sources */,
 				EC610C282ADA30380084BDF8 /* ProfileViewViewModel.swift in Sources */,
-				EC610C2E2ADA30640084BDF8 /* ToDopListItemViewViewModel.swift in Sources */,
+				EC610C2E2ADA30640084BDF8 /* ToDoListItemViewViewModel.swift in Sources */,
 				EC610C162ADA2E210084BDF8 /* ProfileView.swift in Sources */,
 				EC610BF52ADA2A2A0084BDF8 /* MainView.swift in Sources */,
 				EC610C1C2ADA2EF90084BDF8 /* RegisterView.swift in Sources */,
