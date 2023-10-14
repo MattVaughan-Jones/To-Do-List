@@ -33,6 +33,7 @@
 		EC610C2E2ADA30640084BDF8 /* ToDopListItemViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC610C2D2ADA30640084BDF8 /* ToDopListItemViewViewModel.swift */; };
 		EC610C302ADA30700084BDF8 /* NewItemViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC610C2F2ADA30700084BDF8 /* NewItemViewViewModel.swift */; };
 		EC610C322ADA34C30084BDF8 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC610C312ADA34C30084BDF8 /* HeaderView.swift */; };
+		ECE0FD9B2ADA4DE300F7AEDC /* TLButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE0FD9A2ADA4DE300F7AEDC /* TLButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +59,7 @@
 		EC610C2D2ADA30640084BDF8 /* ToDopListItemViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDopListItemViewViewModel.swift; sourceTree = "<group>"; };
 		EC610C2F2ADA30700084BDF8 /* NewItemViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewItemViewViewModel.swift; sourceTree = "<group>"; };
 		EC610C312ADA34C30084BDF8 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		ECE0FD9A2ADA4DE300F7AEDC /* TLButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 			children = (
 				EC610BF42ADA2A2A0084BDF8 /* MainView.swift */,
 				EC610C132ADA2DD90084BDF8 /* ToDoListView.swift */,
+				ECE0FD9A2ADA4DE300F7AEDC /* TLButton.swift */,
 				EC610C152ADA2E210084BDF8 /* ProfileView.swift */,
 				EC610C192ADA2EEF0084BDF8 /* LoginView.swift */,
 				EC610C1B2ADA2EF90084BDF8 /* RegisterView.swift */,
@@ -246,6 +249,7 @@
 				EC610C2A2ADA304F0084BDF8 /* LoginViewViewModel.swift in Sources */,
 				EC610C1A2ADA2EEF0084BDF8 /* LoginView.swift in Sources */,
 				EC610C242ADA30150084BDF8 /* MainViewViewModel.swift in Sources */,
+				ECE0FD9B2ADA4DE300F7AEDC /* TLButton.swift in Sources */,
 				EC610C282ADA30380084BDF8 /* ProfileViewViewModel.swift in Sources */,
 				EC610C2C2ADA30570084BDF8 /* RegisterViewViewModel.swift in Sources */,
 				EC610C2E2ADA30640084BDF8 /* ToDopListItemViewViewModel.swift in Sources */,
