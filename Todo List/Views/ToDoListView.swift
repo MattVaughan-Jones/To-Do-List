@@ -35,20 +35,19 @@ struct ToDoListView: View {
                             }
                             .tint(.red)
                         }
-                }
+                }.listStyle(PlainListStyle())
             }
-            .listStyle(PlainListStyle())
-        }
-        .navigationTitle("To Do List")
-        .toolbar {
-            Button(action: {
-                viewModel.showingNewItemView = true
-            }, label: {
-                Image(systemName: "plus")
-            })
-        }
-        .sheet(isPresented: $viewModel.showingNewItemView) {
-            NewItemView(newItemPresented: $viewModel.showingNewItemView)
+            .navigationTitle("To Do List")
+            .toolbar {
+                Button(action: {
+                    viewModel.showingNewItemView = true
+                }, label: {
+                    Image(systemName: "plus")
+                })
+            }
+            .sheet(isPresented: $viewModel.showingNewItemView) {
+                NewItemView(newItemPresented: $viewModel.showingNewItemView)
+            }
         }
     }
 }
